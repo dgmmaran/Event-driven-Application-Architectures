@@ -1,13 +1,12 @@
 
-# Building Event Driven Application Arhitecture
+Building Event Driven Application Architecture
 
 
+## Overview
 
-
-Overview
-
-## Many customers are choosing to build event-driven application architectures – those in which subscriber or target services automatically perform work in response to events triggered by publisher or source services. This pattern can enable development teams to operate more independently so they can release new features faster, while also making their applications more scalable. In this workshop you’ll learn the basics of event-driven design, how to choose the right AWS service for the job, as well as how to optimize for both cost and performance. Through hands-on practice, this workshop will give you the skills to bring event-driven design patterns into your own applications.
-
+ - [Many customers are adopting event-driven application architectures, where subscriber or target services automatically respond to events triggered by publisher or source services.](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [This architecture pattern allows development teams to work more independently, enabling faster release of new features.](https://github.com/matiassingers/awesome-readme)
+ - [Event-driven architectures also contribute to making applications more scalable.](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
 
