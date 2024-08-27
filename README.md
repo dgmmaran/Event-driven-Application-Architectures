@@ -99,8 +99,6 @@ Select the Log stream.
 Toggle the log event to verify that you received the event.
 ![image](https://user-images.githubusercontent.com/71371405/217496184-f1adff43-aa86-4c5f-97f9-28b780cfb65b.png)
 
-REMEBER - Eventbridge is great for so many different resources - want to track Lambda functions, you can! Timestamp an upload to an S3 bucket, easy!
 
-NEXT - We'll target an API end point - a Lambda function - and SNS 
 
 
