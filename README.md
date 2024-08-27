@@ -4,10 +4,9 @@ Building Event Driven Application Architecture
 
 ## Overview
 
- - [Many customers are adopting event-driven application architectures, where subscriber or target services automatically respond to events triggered by publisher or source services.]
- - [This architecture pattern allows development teams to work more independently, enabling faster release of new features.](https://github.com/matiassingers/awesome-readme)
- - [Event-driven architectures also contribute to making applications more scalable.](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
+ - Many customers are adopting event-driven application architectures, where subscriber or target services automatically respond to events triggered by publisher or source services.
+ - This architecture pattern allows development teams to work more independently, enabling faster release of new features.
+ - Event-driven architectures also contribute to making applications more scalable.
 
 
 
