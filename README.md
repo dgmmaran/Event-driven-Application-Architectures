@@ -9,10 +9,6 @@ Overview
 ## Many customers are choosing to build event-driven application architectures – those in which subscriber or target services automatically perform work in response to events triggered by publisher or source services. This pattern can enable development teams to operate more independently so they can release new features faster, while also making their applications more scalable. In this workshop you’ll learn the basics of event-driven design, how to choose the right AWS service for the job, as well as how to optimize for both cost and performance. Through hands-on practice, this workshop will give you the skills to bring event-driven design patterns into your own applications.
 
 
-## AWS Experience: Intermediate. Time to Complete: 2-4 hours. AWS Services: Amazon EventBridge, Amazon SNS, Amazon SQS, AWS Lambda, and more. Prerequisites: An AWS account and the latest version of Chrome or Firefox browser.
-
-
-
 
 
 
