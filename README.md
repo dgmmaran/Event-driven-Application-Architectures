@@ -7,6 +7,11 @@ Building Event Driven Application Architecture
  - Many customers are adopting event-driven application architectures, where subscriber or target services automatically respond to events triggered by publisher or source services.
  - This architecture pattern allows development teams to work more independently, enabling faster release of new features.
  - Event-driven architectures also contribute to making applications more scalable.
+ - In this workshop, you will:
+     -Learn the basics of event-driven design.
+     -Discover how to choose the appropriate AWS service for different use cases.
+     -Gain insights on optimizing for both cost and performance.
+     -Engage in hands-on practice to acquire the skills needed to implement event-driven design patterns in your own applications.
 
 
 
