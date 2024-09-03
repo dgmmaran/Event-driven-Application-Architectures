@@ -17,7 +17,17 @@ Building Event Driven Application Architecture
 
 
 <img width="1792" alt="Screenshot 2023-02-08 at 08 03 15" src="https://user-images.githubusercontent.com/71371405/217471120-307547fd-3916-40a6-8036-63efee4ecd30.png">
+Prerequisite:
+Launch the AWS CloudFormation template
+This CloudFormation template is designed to deploy a comprehensive environment for an AWS workshop that covers event-driven architectures, with key components like Cognito for authentication, SNS for messaging, EventBridge for event management, Lambda for serverless functions, and a custom Visual Studio Code environment.
 
+
+## Steps for First event bus and targets:
+1. Create a custom event bus
+2. Create Rule
+3. Select Event Source
+4. Select a Target(CloudWatch Group)
+5. Test the Rule and verify in Log group
 - - Step 1 - - : 
 - Create a custom event bus
 Open the AWS Management Console for EventBridge  in a new tab or window, so you can keep this step-by-step guide open.
