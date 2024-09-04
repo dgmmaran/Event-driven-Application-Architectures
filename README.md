@@ -28,6 +28,26 @@ This CloudFormation template is designed to deploy a comprehensive environment f
 3. Select Event Source
 4. Select a Target(CloudWatch Group)
 5. Test the Rule and verify in Log group
+
+## Working with EventBridge rules: Steps
+a. API Destination Challenge
+1. Identify the API URL
+2. Configure the EventBridge API Destination with Basic Auth Security
+3. Configure an EventBridge rule to target the EventBridge API Destination
+4. Send Test Orders Event
+5. Verify API Destination
+
+b. Step Functions Challenge
+1. Implement an EventBridge rule to target steps functions
+2. Send Test EU Orders Events
+3. Verify Step Functions Workflow Execution
+
+
+c. SNS Challenge
+1. Implement an EventBridge rule to target SNS
+2. Send test US Orders Events
+3. Verify SNS Topic
+
 - - Step 1 - - : 
 - Create a custom event bus
 Open the AWS Management Console for EventBridge  in a new tab or window, so you can keep this step-by-step guide open.
