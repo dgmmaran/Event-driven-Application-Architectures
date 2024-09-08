@@ -118,8 +118,8 @@ and troubleshooting EventBridge rules.
 
 ### Create a Custom event bus
 
-1.  Open the [AWS Management Console for
-    EventBridge ](https://console.aws.amazon.com/events/home) in a new
+1.  Open the AWS Management Console for
+    EventBridge  in a new
     tab or window, so you can keep this step-by-step guide open.
 
 2.  On the EventBridge homepage, under Buses, select Event buses from
@@ -189,7 +189,7 @@ from the source \"com.aws.orders\" to keep it controlled.
 11. Skip through the configure tags section, review your rule
     configuration and click **Create Rule.**
 
-### [Test your dev rule](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/simple-bus#step-3:-test-your-dev-rule)
+### Test your dev rule
 
 1.  Select the **Event buses** in the left pane and select **Send
     events** to test the newly created event rule.
@@ -210,8 +210,8 @@ from the source \"com.aws.orders\" to keep it controlled.
 
 > ![](./media/image8.png){width="6.5in" height="5.05in"}
 
-4.  Open the [AWS Management Console for
-    CloudWatch ](https://console.aws.amazon.com/cloudwatch/home) in a
+4.  Open the AWS Management Console for
+    CloudWatch  in a
     new tab or window, so you can keep this step-by-step guide open.
 
 5.  Choose **Log groups** in the left navigation and select
@@ -245,19 +245,18 @@ correctly delivered to each target.
 
 ## API Destination Challenge
 
-[Step 1: Identify the API
-URL](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/apidestinaton-challenge#step-1:-identify-the-api-url)
+Step 1: Identify the API
+URL
 
-1.  Open the [AWS Management Console for
-    CloudFormation ](https://console.aws.amazon.com/cloudformation/home).
+1.  Open the AWS Management Console for
+    CloudFormation
     You can find the API URL for this challenge in the **Outputs** of
     the **CloudFormation Stack** with a name containing **ApiUrl.**
 
-[Step 2: Configure the EventBridge API Destination with basic auth
-security](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/apidestinaton-challenge#step-2:-configure-the-eventbridge-api-destination-with-basic-auth-security)
-
-1.  Open the [AWS Management Console for
-    EventBridge ](https://console.aws.amazon.com/events/home) in a new
+Step 2: Configure the EventBridge API Destination with basic auth
+security
+1.  Open the AWS Management Console for
+    EventBridge  in a new
     tab or window, so you can keep this step-by-step guide open.
 
 2.  On the **EventBridge** homepage, select **API destinations** from
@@ -284,8 +283,8 @@ security](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-4
 
 -   Enter myPassword  as the Password.
 
-[Step 3: Configure an EventBridge rule to target the EventBridge API
-Destination](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/apidestinaton-challenge#step-3:-configure-an-eventbridge-rule-to-target-the-eventbridge-api-destination)
+Step 3: Configure an EventBridge rule to target the EventBridge API
+Destination
 
 1.  From the left-hand menu, select Rules.
 
@@ -321,8 +320,8 @@ Destination](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6ab
 8.  Click **Next** and finish walking through the rest of the
     walk-through to create the rule.
 
-[Step 4: Send test Orders
-event](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/apidestinaton-challenge#step-4:-send-test-orders-event)
+Step 4: Send test Orders
+event
 
 Below is sample data to test your rule using  Send events function to
 send an event, please refer to the previous section.
@@ -332,8 +331,8 @@ events from the source com.aws.orders:
 
 ![](./media/image11.png){width="6.5in" height="0.7243055555555555in"}
 
-[Step 5: Verify API
-Destination](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/apidestinaton-challenge#step-5:-verify-api-destination)
+Step 5: Verify API
+Destination
 
 If the event sent to the Orders event bus matches the pattern in your
 rule, then the event will be sent to an API Gateway REST API endpoint.
@@ -357,8 +356,8 @@ using a **AWS Step Functions** target (**OrderProcessing**). In this use
 case, we are demonstrating how a Step Function execution can be
 triggered to process orders as they are published by the **Orders** bus.
 
-[Step 1: Implement an EventBridge rule to target Step
-Functions](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/sfn-challenge#step-1:-implement-an-eventbridge-rule-to-target-step-functions)
+Step 1: Implement an EventBridge rule to target Step
+Functions
 
 Use the EventBridge console to:
 
@@ -375,16 +374,16 @@ Here is a sample event to reference when writing the event pattern:
 
 ![](./media/image12.png){width="6.5in" height="2.4006944444444445in"}
 
-[Step 2: Send test EU Orders
-events](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/sfn-challenge#step-2:-send-test-eu-orders-events)
+Step 2: Send test EU Orders
+events
 
 Using the Send events function, send the following Order Notification
  events from the source com.aws.orders :
 
 ![](./media/image13.png){width="6.5in" height="1.1076388888888888in"}
 
-[Step 3: Verify Step Functions workflow
-execution](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/sfn-challenge#step-3:-verify-step-functions-workflow-execution)
+Step 3: Verify Step Functions workflow
+execution
 
 If the event sent to the Orders event bus matches the pattern in your
 rule, then the event will be sent to the OrderProcessing Step Functions
@@ -417,8 +416,8 @@ Process only orders from US locations (us-west or us-east) that
 are lab-supplies using a Amazon SNS target (Orders). Similar to the
 previous use case, but using SNS.
 
-[Step 1: Implement an EventBridge rule to target
-SNS](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/sns-challenge#step-1:-implement-an-eventbridge-rule-to-target-sns)
+Step 1: Implement an EventBridge rule to target
+SNS
 
 Use the EventBridge console to:
 
@@ -444,8 +443,8 @@ Using the Send events function, send the following Order Notification
 
 ![](./media/image15.png){width="6.5in" height="1.075in"}
 
-[Step 3: Verify SNS
-topic](https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/eventbridge/rules/sns-challenge#step-3:-verify-sns-topic)
+Step 3: Verify SNS
+topic
 
 If the event sent to the Orders event bus matches the pattern in your
 rule, then the event will be sent to the Orders SQS Queue (via Orders
