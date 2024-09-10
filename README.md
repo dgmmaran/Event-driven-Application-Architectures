@@ -95,15 +95,15 @@ c\. SNS Challenge
 4.  Using the CloudFormation template the following Services will be
     created.
 
--   CognitoUserPool
-
--   SNS
-
--   EventBridge
-
--   Lambda
-
--   Vscode
+        -   CognitoUserPool
+        
+        -   SNS
+        
+        -   EventBridge
+        
+        -   Lambda
+        
+        -   Vscode
 
 ![](./media/image2.png){width="6.5in" height="2.692361111111111in"}
 
